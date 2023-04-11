@@ -7,7 +7,7 @@ Para comenzar a utilizar la clase ProductManager, es necesario crear una instanc
 
 const productos = new ProductManager();
 
-##Agregar un producto
+## Agregar un producto
 
 Para agregar un nuevo producto al inventario, se debe utilizar el método addProduct, el cual recibe los siguientes parámetros:
 
@@ -20,7 +20,7 @@ Para agregar un nuevo producto al inventario, se debe utilizar el método addPro
 
 productos.addProduct("Title", "description", 666, "Image", "BG001", 5);
 
-##Obtener la lista de productos
+## Obtener la lista de productos
 Para obtener una lista de todos los productos en el inventario, se debe utilizar el método getProducts.
 const listaProductos = productos.getProducts();
 console.log(listaProductos);
